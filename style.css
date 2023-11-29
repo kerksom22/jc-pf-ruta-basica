@@ -47,3 +47,28 @@ ul {
 ul li {
   padding-right: 3em;
 }
+
+.resena {
+  margin-bottom: 3em;
+}
+
+.resena div {
+  display: flex;
+  justify-content: center;
+}
+
+.resena img {
+  width: 10em;
+  border-radius: 50%;
+  margin-right: 2em;
+}
+
+.resena p {
+  font-size: 18px;
+  width: 25em;
+}
+
+.autor {
+  font-size: 16px;
+  color: #777;
+}
