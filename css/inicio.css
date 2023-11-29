@@ -28,7 +28,7 @@ body {
 .banner div.cerrar-sesion {
   display: inline-block;
   float: right;
-  margin: 2em;
+  margin: 2em 0;
 }
 
 div.cerrar-sesion button {

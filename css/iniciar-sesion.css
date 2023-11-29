@@ -47,7 +47,7 @@ input {
   width: 100%;
 }
 
-a button {
+button {
   background-color: #000000;
   color: #ffffff;
   font-family: sans-serif;
@@ -57,6 +57,6 @@ a button {
   border: none;
 }
 
-a button:hover {
+button:hover {
   cursor: pointer;
 }

@@ -17,17 +17,19 @@
     <section class="contenido">
       <h2>Registro</h2>
       <form>
-        <input type="text" name="nombre" placeholder="Nombre">
-        <input type="text" name="apellido" placeholder="Apellido">
-        <input type="email" name="correo" placeholder="Correo electrónico">
-        <input type="password" name="contrasena" placeholder="Contraseña">
-        <select name="genero" class="genero">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="apellido" placeholder="Apellido">
+        <input type="email" id="correo" placeholder="Correo electrónico">
+        <input type="password" id="contrasena" placeholder="Contraseña">
+        <select id="genero" class="genero">
           <option value="">-- Por favor escoga su género --</option>
           <option value="masculino">Masculino</option>
           <option value="femenino">Femenino</option>
         </select>
       </form>
-      <a href="iniciar-sesion.html"><button>Registrar</button></a>
+      <a href="iniciar-sesion.html"><button id="registrar">Registrar</button></a>
     </section>
+
+    <script src="../js/registro.js"></script>
   </body>
 </html>
