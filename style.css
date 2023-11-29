@@ -24,3 +24,16 @@ body {
   margin-top: 1.3em;
   margin-left: 1em;
 }
+
+.contenido {
+  padding: 0 1em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.imagen-responsive {
+  max-width: 50%;
+  height: auto;
+  border-radius: 12px;
+}
+
