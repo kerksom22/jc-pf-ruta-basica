@@ -7,3 +7,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 7em;
+  background-color: #000;
+  color: #fff;
+}
+
+.banner img {
+  width: 12em;
+  margin-top: 1.3em;
+  margin-left: 1em;
+}
