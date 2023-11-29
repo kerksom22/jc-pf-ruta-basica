@@ -14,7 +14,7 @@ body {
 }
 
 .banner {
-  height: 7em;
+  height:7em;
   background-color: #000;
   color: #fff;
 }
@@ -23,6 +23,23 @@ body {
   width: 12em;
   margin-top: 1.3em;
   margin-left: 1em;
+}
+
+.banner div.registro {
+  display: inline-block;
+  float: right;
+  margin: 2em;
+}
+
+div.registro button {
+  background-color: greenyellow;
+  border: none;
+  padding: 1em 2.5em;
+  border-radius: 5px;
+}
+
+div.registro button:hover {
+  cursor: pointer;
 }
 
 .contenido {
