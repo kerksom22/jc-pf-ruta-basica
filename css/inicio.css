@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -12,40 +14,56 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-
 .banner {
   height:7em;
-  background-color: #000;
+  background-color: #3ba773;
   color: #fff;
+  border-radius: 0 0 25px 25px;
+}
+
+.banner img:hover {
+  opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
 }
 
 .banner img {
   width: 12em;
   margin-top: 1.3em;
   margin-left: 1em;
+  transition: all 1s ease 0s; 
 }
 
 .banner div.cerrar-sesion {
   display: inline-block;
   float: right;
-  margin: 2em 0;
+  margin: 2em;
 }
 
 div.cerrar-sesion button {
-  color: greenyellow;
-  background-color: transparent;
+  background-color: rgb(89, 193, 64);
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: medium;
   border: none;
   padding: 1em 2.5em;
-  border-radius: 5px;
+  border-radius: 10px;
+  transition: all 1s ease 0s; 
 }
 
 div.cerrar-sesion button:hover {
   cursor: pointer;
   text-decoration: underline;
+  background-color: rgb(179, 58, 58);
+  font-weight: 700;
+  opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
 }
 
 .contenido {
-  width: 40em;
+  /* width: 40em; */
   height: 50em;
   margin: 0 auto;
   padding: 2em;
@@ -54,4 +72,216 @@ div.cerrar-sesion button:hover {
 h2 {
   font-family: sans-serif;
   font-size: 20px;
+}
+
+/***************************************/
+
+.container{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.card:hover{
+  opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
+}
+
+.card{
+  transition: all 1s ease 0s;
+  background-color: rgb(15, 10, 69);
+  background-image: url('https://static.platzi.com/media/uploads/thumbnail_school_bg_english_2x_0661cd7f53.png?width=400&height=200');
+  width: 245px;
+  height: 110px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.card2:hover{
+  opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
+}
+
+.card2{
+  transition: all 1s ease 0s;
+  background-color: rgb(15, 10, 69);
+  background-image: url('https://static.platzi.com/media/uploads/thumbnail_school_bg_softskills_2x_9c99937ebb.png?width=400&height=200');
+  width: 245px;
+  height: 110px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.card3:hover{
+  opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
+}
+
+.card3{
+  transition: all 1s ease 0s;
+  background-color: rgb(15, 10, 69);
+  background-image: url('https://static.platzi.com/media/uploads/thumbnail_school_bg_business_2x_3e7099cd8d.png?width=400&height=200');
+  width: 245px;
+  height: 110px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.card4:hover{
+  opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
+}
+
+.card4{
+  transition: all 1s ease 0s;
+  background-color: rgb(15, 10, 69);
+  background-image: url('https://static.platzi.com/media/uploads/thumbnail_school_bg_development_2x_09d9a2b255.png?width=400&height=200');
+  width: 245px;
+  height: 110px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.card5:hover{
+  opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
+}
+
+.card5{
+  transition: all 1s ease 0s;
+  background-color: rgb(15, 10, 69);
+  background-image: url('https://static.platzi.com/media/uploads/thumbnail_school_bg_design_2x_85812088fa.png?width=400&height=200');
+  width: 245px;
+  height: 110px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.card6:hover{
+  opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
+}
+
+.card6{
+  transition: all 1s ease 0s;
+  background-color: rgb(15, 10, 69);
+  background-image: url('https://static.platzi.com/media/uploads/thumbnail_school_bg_digitalcontent_2x_8e3bd7e625.png?width=400&height=200');
+  width: 245px;
+  height: 110px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.iconEscuela{
+  width: 45px;
+}
+
+.containerElementos{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.containerElementos h4{
+  margin: 0;
+}
+
+.containerElementos p{
+  margin: 0;
+  font-size: 14px;
+}
+
+/**********************************************/
+
+.filtroCursos{
+  display: flex;
+  gap: 2rem;
+}
+
+.item{
+  background-color:cadetblue;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 45px;
+  cursor: pointer;
+}
+
+.containerCards{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cardCursos{
+  width: 336px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #24385b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.containerCards h4{
+  margin: 0;
+  color: #EFF3F8;
+}
+
+.containerCards p{
+  margin: 0;
+  color: #8DA2C0;
+}
+
+.contenidoCurso a{
+  text-decoration: none;
+}
+
+.contenidoCurso a:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.itemActivate{
+  background-color: #3ba773;
 }

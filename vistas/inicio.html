@@ -1,29 +1,175 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Platzi</title>
-    <link rel="stylesheet" href="../css/inicio.css">
-  </head>
-  <body>
-    <header>
-      <div class="contenedor">
-        <div class="banner">
-          <img src="https://i.pinimg.com/originals/f4/b4/da/f4b4da84b3980bf66ac07a55a660661a.png">
-          <div class="cerrar-sesion">
-            <a href="../index.html"><button id="cerrar-sesion">Cerrar sesión</button></a>
-          </div>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Platzi</title>
+  <link rel="shortcut icon" href="/jc-pf-ruta-basica-main/archivos-media/platzi-isotipo@2x.png">
+  <link rel="stylesheet" href="../css/inicio.css">
+</head>
+
+<body>
+  <header>
+    <div class="contenedor">
+      <div class="banner">
+        <a href=""><img src="https://i.pinimg.com/originals/f4/b4/da/f4b4da84b3980bf66ac07a55a660661a.png"></a>
+        <div class="cerrar-sesion">
+          <a href="../index.html"><button id="cerrar-sesion">Cerrar sesión</button></a>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="contenido">
-      <h2>¡Bienvenido, <strong id="nombre-usuario">Nombre usuario</strong>!</h2>
-      <p>Aquí puedes acceder a todos tus cursos y recursos.</p>
+  <section class="contenido">
+    <h2>¡Bienvenido, <strong id="nombre-usuario">Nombre usuario</strong>!</h2>
+    <!-- <p>Aquí puedes acceder a todos tus cursos y recursos.</p>
       <a>Cursos</a>
-      <a>Recursos</a>
+      <a>Recursos</a> -->
+
+    <h2>Los mejores cursos</h2>
+    <section class="containerCursos">
+      <section class="filtroCursos">
+        <div class="item">Para ti</div>
+        <div class="item">Populares</div>
+        <div class="item">Nuevos</div>
+      </section>
+
+      <section class="containerCards">
+        <section class="cardCursos">
+          <section class="iconCurso">
+            <img src="https://static.platzi.com/media/achievements/badge-basicojs-e2ead888-428e-4f55-962c-8894aeaeacda.png"
+              class="iconEscuela">
+          </section>
+  
+          <section class="contenidoCurso">
+            <a href="">
+              <h4 class="title">Curso basico de javascript</h4>
+            </a>
+            <a href="">
+              <p>Por Diego De Granda</p>
+            </a>
+          </section>
+        </section>
+        
+        <section class="cardCursos">
+          <section class="iconCurso">
+            <img src="https://static.platzi.com/cdn-cgi/image/width=1200,quality=85,format=auto/media/learningpath/badges/58ffcf7b-b6d0-4a39-988a-6b220ab18398.jpg"
+              class="iconEscuela">
+          </section>
+  
+          <section class="contenidoCurso">
+            <a href="">
+              <h4 class="title">Curso basico de negocios</h4>
+            </a>
+            <a href="">
+              <p>Por Alba Bula</p>
+            </a>
+          </section>
+        </section>
+
+        <section class="cardCursos">
+          <section class="iconCurso">
+            <img src="https://static.platzi.com/cdn-cgi/image/width=1200,quality=85,format=auto/media/learningpath/badges/19451906-07d5-4f58-afce-29be7804c93b.jpg"
+              class="iconEscuela">
+          </section>
+  
+          <section class="contenidoCurso">
+            <a href="">
+              <h4 class="title">Curso basico de marketing digital</h4>
+            </a>
+            <a href="">
+              <p>Por Franscisco Gimlet</p>
+            </a>
+          </section>
+        </section>
+      </section>
     </section>
-    
-    <script src="../js/inicio.js"></script>
-  </body>
+
+
+
+    <h2>Escuela</h2>
+    <section class="container">
+      <section class="card">
+        <section class="containerElementos">
+          <h4>Escuela</h4>
+          <p>English</p>
+          <p>Academy</p>
+        </section>
+        <section class="icon">
+          <img
+            src="https://static.platzi.com/cdn-cgi/image/width=1200,quality=85,format=auto/media/learningpath/badges/6ffa5e41-5b45-4ab5-9b07-81b8e4d9b81a.jpg"
+            class="iconEscuela">
+        </section>
+      </section>
+
+      <section class="card2">
+        <section class="containerElementos">
+          <h4>Escuela</h4>
+          <p>Liderazgo y</p>
+          <p>Management</p>
+        </section>
+        <section class="icon">
+          <img
+            src="https://static.platzi.com/cdn-cgi/image/width=1200,quality=85,format=auto/media/learningpath/badges/21294f19-27a8-4c8c-9fce-885c2ad4d7b2.jpg"
+            class="iconEscuela">
+        </section>
+      </section>
+
+      <section class="card3">
+        <section class="containerElementos">
+          <h4>Escuela</h4>
+          <p>Negocios</p>
+        </section>
+        <section class="icon">
+          <img
+            src="https://static.platzi.com/cdn-cgi/image/width=1200,quality=85,format=auto/media/learningpath/badges/58ffcf7b-b6d0-4a39-988a-6b220ab18398.jpg"
+            class="iconEscuela">
+        </section>
+      </section>
+
+      <section class="card4">
+        <section class="containerElementos">
+          <h4>Escuela</h4>
+          <p>Programación y</p>
+          <p>Software</p>
+        </section>
+        <section class="icon">
+          <img
+            src="https://static.platzi.com/cdn-cgi/image/width=1200,quality=85,format=auto/media/learningpath/badges/58c8b016-00c0-4852-99fc-f5203fe748ff.jpg"
+            class="iconEscuela">
+        </section>
+      </section>
+
+      <section class="card5">
+        <section class="containerElementos">
+          <h4>Escuela</h4>
+          <p>Diseño</p>
+        </section>
+        <section class="icon">
+          <img
+            src="https://static.platzi.com/cdn-cgi/image/width=480,quality=85,format=auto/media/learningpath/badges/7eaa3edf-960c-41f2-8018-05edbafbfce2.jpg"
+            class="iconEscuela">
+        </section>
+      </section>
+
+      <section class="card6">
+        <section class="containerElementos">
+          <h4>Escuela</h4>
+          <p>Contenido Digital</p>
+        </section>
+        <section class="icon">
+          <img
+            src="https://static.platzi.com/cdn-cgi/image/width=1200,quality=85,format=auto/media/learningpath/badges/3ba82f60-df82-4734-a109-7b951116d9fd.jpg"
+            class="iconEscuela">
+        </section>
+      </section>
+    </section>
+
+  </section>
+
+  </section>
+
+  <script src="../js/inicio.js"></script>
+</body>
+
 </html>

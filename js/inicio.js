@@ -14,3 +14,11 @@ function cerrarSesion() {
 
     location.href = "../index.html"
 }
+
+/* items = document.querySelectorAll('.item')
+
+items.forEach(element => {
+    element.addEventListener('click', () => {
+        element.classList.toggle('itemActivate')
+    })
+}); */

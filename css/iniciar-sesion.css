@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -15,14 +17,22 @@ body {
 
 .banner {
   height:7em;
-  background-color: #000;
+  background-color: #3ba773;
   color: #fff;
+  border-radius: 0 0 25px 25px;
+}
+
+.banner img:hover {
+  opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
 }
 
 .banner img {
   width: 12em;
   margin-top: 1.3em;
   margin-left: 1em;
+  transition: all 1s ease 0s; 
 }
 
 .contenido {
@@ -33,30 +43,38 @@ body {
 }
 
 h2 {
-  font-family: sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
 }
 
 input {
-  font-family: sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 16px;
-  border: 1px solid #000000;
+  border: 2px solid rgb(54, 178, 143);
+  border-radius: 15px;
   padding: 1em;
   margin: 1em 0;
   display: block;
   width: 100%;
 }
 
+button:hover {
+  background-color: #3ba773;
+  cursor: pointer;
+  opacity: 0.9;
+    transform: scale(1.05);
+    transition: all 1s ease 0s;
+}
+
+
 button {
+  transition: all 1s ease 0s;
   background-color: #000000;
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 18px;
   padding: 1em;
   width: 100%;
   border: none;
-}
-
-button:hover {
-  cursor: pointer;
+  border-radius: 20px;
 }
